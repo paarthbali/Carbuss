@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Car Buss</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            background-color: #111;
+        }
+
+        /* Background Video */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        #bg-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f39c12;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+
+        nav ul li a:hover {
+            color: #e67e22;
+        }
+
+        /* About Us Section */
+        .content {
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            background: linear-gradient(to right, #f39c12, #e67e22);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        footer {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="booking.html">Book a Car</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    
+    
+    <!-- Main content -->
+    <div class="content">
+        <h1>About Car Buss</h1>
+        <p>Car Buss is your go-to destination for all your car needs. Whether you're looking to buy, rent, or simply explore the best car deals, we offer a wide range of services to fit your needs. We pride ourselves on providing top-notch customer service, competitive prices, and a seamless car-buying experience.</p>
+        <p>Our mission is simple: to bring you the best cars at the best prices, with exceptional service. Our team is committed to making your car-buying journey as smooth as possible, every step of the way.</p>
+    </div>
+
+    <footer>
+        <p>© 2024 Car Buss | <a href="index.html">Home</a></p>
+    </footer>
+
+</body>
+</html>
